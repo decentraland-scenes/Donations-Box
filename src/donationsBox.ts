@@ -157,16 +157,17 @@ export class DonationsBox extends Entity {
 
   public makeDonation(): void {
     log('MAKING DONATION OF', this.defaultAmount)
-    ERC20.sendMana(this.address, this.defaultAmount)
-    this.idleAnimation.stop()
-    this.animation.stop()
-    this.animation.play()
+    ERC20.sendMana(this.address, this.defaultAmount).then(() => {
+      this.idleAnimation.stop()
+      this.animation.stop()
+      this.animation.play()
 
-    this.addComponentOrReplace(
-      new utils.Delay(500, () => {
-        this.animation.stop()
-        this.idleAnimation.play()
-      })
-    )
+      this.addComponentOrReplace(
+        new utils.Delay(2500, () => {
+          this.animation.stop()
+          this.idleAnimation.play()
+        })
+      )
+    })
   }
 }
