@@ -1,4 +1,4 @@
-import { send } from '../node_modules/@dcl/crypto-utils/mana/index'
+import * as mana from '../node_modules/@dcl/crypto-utils/mana/index'
 import utils from '../node_modules/decentraland-ecs-utils/index'
 
 export const screenSpaceUI = new UICanvas()
@@ -157,7 +157,7 @@ export class DonationsBox extends Entity {
 
   public makeDonation(): void {
     log('MAKING DONATION OF', this.defaultAmount)
-    send(this.address, this.defaultAmount).then(() => {
+    mana.send(this.address, this.defaultAmount).then(() => {
       this.idleAnimation.stop()
       this.animation.stop()
       this.animation.play()
