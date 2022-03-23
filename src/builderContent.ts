@@ -7,7 +7,7 @@ export function buildScene() {
   const transform = new Transform({
     position: new Vector3(0, 0, 0),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   _scene.addComponentOrReplace(transform)
 
@@ -24,7 +24,7 @@ export function buildScene() {
   const transform2 = new Transform({
     position: new Vector3(8, 0, 8),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   entity.addComponentOrReplace(transform2)
 
@@ -34,7 +34,7 @@ export function buildScene() {
   const transform3 = new Transform({
     position: new Vector3(10.600052833557129, 0, 11.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile.addComponentOrReplace(transform3)
   const gltfShape2 = new GLTFShape(
@@ -51,7 +51,7 @@ export function buildScene() {
   const transform4 = new Transform({
     position: new Vector3(8.5, 0, 7),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   exodusBase.addComponentOrReplace(transform4)
   const gltfShape3 = new GLTFShape('models/HTC_Base/HTC_Base.glb')
@@ -66,7 +66,7 @@ export function buildScene() {
   const transform5 = new Transform({
     position: new Vector3(8.34492301940918, 0, 6.976346969604492),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   bigMossyRock.addComponentOrReplace(transform5)
   const gltfShape4 = new GLTFShape(
@@ -87,7 +87,7 @@ export function buildScene() {
       6.748531818389893
     ),
     rotation: new Quaternion(0, 0, 0.3236430883407593, 0.9461792707443237),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   redBicycle.addComponentOrReplace(transform6)
   const gltfShape5 = new GLTFShape('models/Bicycle_01/Bicycle_01.glb')
@@ -106,7 +106,7 @@ export function buildScene() {
       7.16286563873291
     ),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   blackTricornHat.addComponentOrReplace(transform7)
   const gltfShape6 = new GLTFShape('models/PirateHat_02/PirateHat_02.glb')
@@ -125,7 +125,7 @@ export function buildScene() {
       6.328909397125244
     ),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   hardHat.addComponentOrReplace(transform8)
   const gltfShape7 = new GLTFShape(
@@ -151,7 +151,7 @@ export function buildScene() {
       -7.997022777317397e-8,
       0.7416031956672668
     ),
-    scale: new Vector3(1, 1.0000091791152954, 1.0000091791152954),
+    scale: new Vector3(1, 1.0000091791152954, 1.0000091791152954)
   })
   pineapple.addComponentOrReplace(transform9)
   const gltfShape8 = new GLTFShape(
@@ -176,7 +176,7 @@ export function buildScene() {
       0.13905857503414154,
       0.13905857503414154,
       0.13905858993530273
-    ),
+    )
   })
   treehouse.addComponentOrReplace(transform10)
   const gltfShape9 = new GLTFShape('models/TreeHouse_01/TreeHouse_01.glb')
@@ -200,7 +200,7 @@ export function buildScene() {
       7.822289660452952e-8,
       0.754603385925293
     ),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   fireHydrant.addComponentOrReplace(transform11)
   const gltfShape10 = new GLTFShape('models/FireHydrant_01/FireHydrant_01.glb')
@@ -219,7 +219,7 @@ export function buildScene() {
       6.743607044219971
     ),
     rotation: new Quaternion(0, 0, -0.24345248937606812, 0.9699128270149231),
-    scale: new Vector3(0.9999990463256836, 0.9999990463256836, 1),
+    scale: new Vector3(0.9999990463256836, 0.9999990463256836, 1)
   })
   constructionCone.addComponentOrReplace(transform12)
   const gltfShape11 = new GLTFShape(
@@ -249,7 +249,7 @@ export function buildScene() {
       1.0000251531600952,
       1.000025987625122,
       1.0000176429748535
-    ),
+    )
   })
   streetMailbox.addComponentOrReplace(transform13)
   const gltfShape12 = new GLTFShape('models/MailPost_01/MailPost_01.glb')
@@ -272,7 +272,7 @@ export function buildScene() {
       0.7361947894096375,
       0.7573351263999939,
       1.0583322048187256
-    ),
+    )
   })
   soccerBall.addComponentOrReplace(transform14)
   const gltfShape13 = new GLTFShape(
@@ -294,7 +294,7 @@ export function buildScene() {
       -1.924935588704102e-8,
       0.9868767857551575
     ),
-    scale: new Vector3(0.9999996423721313, 1, 0.9999996423721313),
+    scale: new Vector3(0.9999996423721313, 1, 0.9999996423721313)
   })
   constructionLadder.addComponentOrReplace(transform15)
   const gltfShape14 = new GLTFShape(
@@ -311,7 +311,7 @@ export function buildScene() {
   const transform16 = new Transform({
     position: new Vector3(7.639830112457275, 5.38, 6.700704097747803),
     rotation: new Quaternion(0, 0, -0.5815821290016174, 0.813487708568573),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   classroomChair.addComponentOrReplace(transform16)
   const gltfShape15 = new GLTFShape('models/Chair_02/Chair_02.glb')
@@ -339,7 +339,7 @@ export function buildScene() {
       1.0000019073486328,
       0.9999997615814209,
       1.0000028610229492
-    ),
+    )
   })
   redFish.addComponentOrReplace(transform17)
   const gltfShape16 = new GLTFShape('models/Fish_02/Fish_02.glb')
@@ -363,7 +363,7 @@ export function buildScene() {
       -1.7340116897912594e-8,
       0.9893642663955688
     ),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   anvil.addComponentOrReplace(transform18)
   const gltfShape17 = new GLTFShape('models/Anvil_01/Anvil_01.glb')
@@ -379,7 +379,7 @@ export function buildScene() {
   const transform19 = new Transform({
     position: new Vector3(8.600052833557129, 0, 11.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile2.addComponentOrReplace(transform19)
 
@@ -390,7 +390,7 @@ export function buildScene() {
   const transform20 = new Transform({
     position: new Vector3(6.600052833557129, 0, 11.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile3.addComponentOrReplace(transform20)
 
@@ -401,7 +401,7 @@ export function buildScene() {
   const transform21 = new Transform({
     position: new Vector3(6.600052833557129, 0, 9.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile4.addComponentOrReplace(transform21)
 
@@ -412,7 +412,7 @@ export function buildScene() {
   const transform22 = new Transform({
     position: new Vector3(6.600052833557129, 0, 7.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile5.addComponentOrReplace(transform22)
 
@@ -423,7 +423,7 @@ export function buildScene() {
   const transform23 = new Transform({
     position: new Vector3(6.600052833557129, 0, 5.026769638061523),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile6.addComponentOrReplace(transform23)
 
@@ -434,7 +434,7 @@ export function buildScene() {
   const transform24 = new Transform({
     position: new Vector3(8.5, 0, 5),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile7.addComponentOrReplace(transform24)
 
@@ -445,7 +445,7 @@ export function buildScene() {
   const transform25 = new Transform({
     position: new Vector3(10.5, 0, 5),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile8.addComponentOrReplace(transform25)
 
@@ -456,7 +456,7 @@ export function buildScene() {
   const transform26 = new Transform({
     position: new Vector3(12.5, 0, 5),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile9.addComponentOrReplace(transform26)
 
@@ -467,7 +467,7 @@ export function buildScene() {
   const transform27 = new Transform({
     position: new Vector3(12.5, 0, 7),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile10.addComponentOrReplace(transform27)
 
@@ -478,7 +478,7 @@ export function buildScene() {
   const transform28 = new Transform({
     position: new Vector3(12.5, 0, 9),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile11.addComponentOrReplace(transform28)
 
@@ -489,7 +489,7 @@ export function buildScene() {
   const transform29 = new Transform({
     position: new Vector3(12.5, 0, 11),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   smallStarMosaicTile12.addComponentOrReplace(transform29)
 
@@ -504,7 +504,7 @@ export function buildScene() {
       -1.1912741371133961e-7,
       -0.037055909633636475
     ),
-    scale: new Vector3(1.0000048875808716, 1, 1.0000048875808716),
+    scale: new Vector3(1.0000048875808716, 1, 1.0000048875808716)
   })
   squareSignpost.addComponentOrReplace(transform30)
 
@@ -514,7 +514,7 @@ export function buildScene() {
   const transform31 = new Transform({
     position: new Vector3(11.5, 0, 13.5),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   bush.addComponentOrReplace(transform31)
   const gltfShape18 = new GLTFShape('models/Bush_02/Bush_02.glb')
@@ -529,7 +529,7 @@ export function buildScene() {
   const transform32 = new Transform({
     position: new Vector3(6.5, 0, 12),
     rotation: new Quaternion(0, 0, 0, 1),
-    scale: new Vector3(1, 1, 1),
+    scale: new Vector3(1, 1, 1)
   })
   squareWoodTable.addComponentOrReplace(transform32)
   const gltfShape19 = new GLTFShape('models/Table_03/Table_03.glb')

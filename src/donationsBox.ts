@@ -7,7 +7,7 @@ screenSpaceUI.visible = true
 const imageTexture = new Texture('images/donations_UI.png')
 const scale = 0.55
 
-let donationsBoxModel = new GLTFShape('models/DonationsBox.glb')
+const donationsBoxModel = new GLTFShape('models/DonationsBox.glb')
 
 export class DonationsBox extends Entity {
   animation: AnimationState
@@ -34,7 +34,7 @@ export class DonationsBox extends Entity {
     this.getComponent(Animator).addClip(this.animation)
 
     this.idleAnimation = new AnimationState('DonationIdle_Action', {
-      looping: true,
+      looping: true
     })
     this.getComponent(Animator).addClip(this.idleAnimation)
     this.idleAnimation.playing = true
@@ -52,7 +52,7 @@ export class DonationsBox extends Entity {
       )
     )
 
-    let background = new UIImage(screenSpaceUI, imageTexture)
+    const background = new UIImage(screenSpaceUI, imageTexture)
 
     background.name = 'background'
     background.width = 1024 * scale
@@ -87,8 +87,8 @@ export class DonationsBox extends Entity {
     this.donationInput.visible = true
     this.donationInput.onChanged = new OnChanged((x) => {
       log('on changed value: ', x.value)
-      let moneyText: string = x.value
-      let moneyNumber: number = parseFloat(moneyText)
+      const moneyText: string = x.value
+      const moneyNumber: number = parseFloat(moneyText)
       this.toDonate = moneyNumber
     })
 
